@@ -4,7 +4,8 @@
 body {
   background-image: url("../images/website_background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-attachment:fixed;
 }
 h1 {
 font-family: Courier;
@@ -22,7 +23,7 @@ font-family: Courier;
 }
 .sidebar{
   float: left;
-  width: 25%;
+  width: 10%;
 }
 .sidebar a{
   display: block;
@@ -30,7 +31,7 @@ font-family: Courier;
 }
 .content {
   float: left;
-  width: 75%;
+  width: 90%;
 }
 img{
   width: 100%;
@@ -48,5 +49,10 @@ img{
   }
 }
 .social-media {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+
 
 }
